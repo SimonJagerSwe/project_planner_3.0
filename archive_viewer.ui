@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>archive_viewer</class>
+ <widget class="QWidget" name="archive_viewer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>744</width>
+    <height>321</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>461</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="main_menu_button_archive">
+      <property name="maximumSize">
+       <size>
+        <width>225</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Return to main menu</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="exit_button_archive">
+      <property name="maximumSize">
+       <size>
+        <width>225</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Exit program</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>701</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QPushButton" name="main_menu_button_archive_2">
+      <property name="maximumSize">
+       <size>
+        <width>225</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>View programming archive</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="main_menu_button_archive_3">
+      <property name="maximumSize">
+       <size>
+        <width>225</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>View everyday archive</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="main_menu_button_archive_4">
+      <property name="maximumSize">
+       <size>
+        <width>225</width>
+        <height>55</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>View full archive</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
