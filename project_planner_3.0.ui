@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>project_planner_main</class>
+ <widget class="QMainWindow" name="project_planner_main">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>590</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>20</y>
+      <width>182</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="add_project_button">
+       <property name="minimumSize">
+        <size>
+         <width>180</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>220</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Add new project</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="view_programming_button">
+       <property name="maximumSize">
+        <size>
+         <width>225</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>View programming projects</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="view_everyday_button">
+       <property name="maximumSize">
+        <size>
+         <width>225</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>View everyday projects</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="view_archived_button">
+       <property name="maximumSize">
+        <size>
+         <width>225</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>View archived projects</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="exit_button_main">
+       <property name="maximumSize">
+        <size>
+         <width>225</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Exit program</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
