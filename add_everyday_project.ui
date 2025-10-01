@@ -52,7 +52,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -98,7 +98,7 @@
      </widget>
     </item>
     <item>
-     <widget class="QLineEdit" name="everyday_everyday_status_line_edit">
+     <widget class="QLineEdit" name="everyday_status_line_edit">
       <property name="text">
        <string>Status</string>
       </property>

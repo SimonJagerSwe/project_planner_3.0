@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit_everyday_project</class>
+ <widget class="QWidget" name="edit_everyday_project">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>425</width>
+    <height>443</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="everyday_project_edit_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit project</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>381</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="edit_everyday_line_edits">
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_name_line_edit">
+      <property name="text">
+       <string>Project name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_start_line_edit">
+      <property name="text">
+       <string>Start date</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_finish_line_edit">
+      <property name="text">
+       <string>Projected finish date</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_progress_line_edit_2">
+      <property name="text">
+       <string>Project notes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_progress_line_edit">
+      <property name="text">
+       <string>Progress %</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_everyday_status_line_edit">
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="everyday_return_exit_layout">
+    <item>
+     <widget class="QPushButton" name="edit_everyday_return_button">
+      <property name="text">
+       <string>Return to main menu</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="edit_everyday_exit_button">
+      <property name="text">
+       <string>Exit program</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>edit_programming_project</class>
+ <widget class="QWidget" name="edit_programming_project">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>423</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>22</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="edit_programming_line_edits_layout">
+    <item>
+     <widget class="QLineEdit" name="edit_programming_name_line_edit">
+      <property name="text">
+       <string>Project name</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_start_line_edit">
+      <property name="text">
+       <string>Start date</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_finish_line_edit">
+      <property name="text">
+       <string>Projected finish date</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_language_line_edit">
+      <property name="text">
+       <string>Language(s)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_link_line_edit">
+      <property name="text">
+       <string>Project link</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_notes_line_edit">
+      <property name="text">
+       <string>Project notes</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_progress_line_edit">
+      <property name="text">
+       <string>Progress %</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="edit_programming_status_line_edit">
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="programming_edit_project_button">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>381</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Edit project</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>381</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="edit_programming_return_exit_layout">
+    <item>
+     <widget class="QPushButton" name="edit_programming_return_button">
+      <property name="text">
+       <string>Return to main menu</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="edit_programming_exit_button">
+      <property name="text">
+       <string>Exit program</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -42,41 +42,41 @@ class Ui_add_everyday_project(object):
 
         self.everyday_return_exit_layout.addWidget(self.everyday_exit_button)
 
-        self.widget = QWidget(add_everyday_project)
-        self.widget.setObjectName(u"widget")
-        self.widget.setGeometry(QRect(20, 10, 381, 251))
-        self.everyday_line_edits = QVBoxLayout(self.widget)
+        self.layoutWidget1 = QWidget(add_everyday_project)
+        self.layoutWidget1.setObjectName(u"layoutWidget1")
+        self.layoutWidget1.setGeometry(QRect(20, 10, 381, 251))
+        self.everyday_line_edits = QVBoxLayout(self.layoutWidget1)
         self.everyday_line_edits.setObjectName(u"everyday_line_edits")
         self.everyday_line_edits.setContentsMargins(0, 0, 0, 0)
-        self.everyday_name_line_edit = QLineEdit(self.widget)
+        self.everyday_name_line_edit = QLineEdit(self.layoutWidget1)
         self.everyday_name_line_edit.setObjectName(u"everyday_name_line_edit")
 
         self.everyday_line_edits.addWidget(self.everyday_name_line_edit)
 
-        self.everyday_start_line_edit = QLineEdit(self.widget)
+        self.everyday_start_line_edit = QLineEdit(self.layoutWidget1)
         self.everyday_start_line_edit.setObjectName(u"everyday_start_line_edit")
 
         self.everyday_line_edits.addWidget(self.everyday_start_line_edit)
 
-        self.everyday_finish_line_edit = QLineEdit(self.widget)
+        self.everyday_finish_line_edit = QLineEdit(self.layoutWidget1)
         self.everyday_finish_line_edit.setObjectName(u"everyday_finish_line_edit")
 
         self.everyday_line_edits.addWidget(self.everyday_finish_line_edit)
 
-        self.everyday_progress_line_edit_2 = QLineEdit(self.widget)
+        self.everyday_progress_line_edit_2 = QLineEdit(self.layoutWidget1)
         self.everyday_progress_line_edit_2.setObjectName(u"everyday_progress_line_edit_2")
 
         self.everyday_line_edits.addWidget(self.everyday_progress_line_edit_2)
 
-        self.everyday_progress_line_edit = QLineEdit(self.widget)
+        self.everyday_progress_line_edit = QLineEdit(self.layoutWidget1)
         self.everyday_progress_line_edit.setObjectName(u"everyday_progress_line_edit")
 
         self.everyday_line_edits.addWidget(self.everyday_progress_line_edit)
 
-        self.everyday_everyday_status_line_edit = QLineEdit(self.widget)
-        self.everyday_everyday_status_line_edit.setObjectName(u"everyday_everyday_status_line_edit")
+        self.everyday_status_line_edit = QLineEdit(self.layoutWidget1)
+        self.everyday_status_line_edit.setObjectName(u"everyday_status_line_edit")
 
-        self.everyday_line_edits.addWidget(self.everyday_everyday_status_line_edit)
+        self.everyday_line_edits.addWidget(self.everyday_status_line_edit)
 
 
         self.retranslateUi(add_everyday_project)
@@ -94,6 +94,6 @@ class Ui_add_everyday_project(object):
         self.everyday_finish_line_edit.setText(QCoreApplication.translate("add_everyday_project", u"Projected finish date", None))
         self.everyday_progress_line_edit_2.setText(QCoreApplication.translate("add_everyday_project", u"Project notes", None))
         self.everyday_progress_line_edit.setText(QCoreApplication.translate("add_everyday_project", u"Progress %", None))
-        self.everyday_everyday_status_line_edit.setText(QCoreApplication.translate("add_everyday_project", u"Status", None))
+        self.everyday_status_line_edit.setText(QCoreApplication.translate("add_everyday_project", u"Status", None))
     # retranslateUi
 
