@@ -1,13 +1,8 @@
 # Imports
-import sys
-
-from PySide6 import QtCore, QtWidgets
+from PySide6 import QtCore
 from PySide6.QtUiTools import QUiLoader
 
-# from actions import open_add_project
 import actions
-from ui_project_planner_3 import Ui_project_planner_main
-from ui_add_new_project import Ui_add_new_project
 
 
 loader = QUiLoader()
@@ -25,29 +20,4 @@ class UserInterface(QtCore.QObject):
 
     def show(self):
         self.ui.show()
-
-
-'''
-    def view_programming(self):
-        print("Triggering programming projects viewer...")
-
-    def view_everyday(self):
-        print("Triggering everyday projects viewer...")
-
-    def view_archive(self):
-        print("Triggering archive viewer...")
-
-    def exit_program(self):
-        print("Terminating program...")
-        sys.exit()
-        
-
-    def open_add_project(self):
-        print("Triggering add new project...")
-        # app = QtWidgets.QApplication(sys.argv)
-        window = UserInterface()
-        window.show()
-        # app.exec()
-        # add_project = Ui_add_new_project()
-        # self.ui = loader.load("add_new_project.ui")'''
 
