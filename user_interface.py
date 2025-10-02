@@ -1,9 +1,8 @@
 # Imports
-from PySide6 import QtCore
-from PySide6.QtUiTools import QUiLoader
-
 import actions
 
+from PySide6 import QtCore
+from PySide6.QtUiTools import QUiLoader
 
 loader = QUiLoader()
 
@@ -20,4 +19,3 @@ class UserInterface(QtCore.QObject):
 
     def show(self):
         self.ui.show()
-
