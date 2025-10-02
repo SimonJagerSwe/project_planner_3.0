@@ -1,6 +1,10 @@
 # Imports
 import sys
 
+from PySide6.QtUiTools import QUiLoader
+
+loader = QUiLoader()
+
 
 def open_add_project():
     print("Triggering add new project...")
