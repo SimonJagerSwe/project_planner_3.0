@@ -1,8 +1,12 @@
 # Imports
 import sys
 
-from PySide6 import QtCore
+from PySide6 import QtWidgets
 from PySide6.QtUiTools import QUiLoader
+
+from main_menu import MainMenu
+from new_project_menu import NewProjectMenu
+# from ui_add_new_project import Ui_add_new_project
 
 loader = QUiLoader()
 
@@ -11,10 +15,16 @@ def new_window(ui):
     print(type(ui))
     # window = loader.load(ui)
 
-def open_add_project():
+def open_add_project():    
     print("Triggering add new project...")
-    ui = "ui_add_new_project.py"
-    new_window(ui)
+    main = MainMenu()
+    # main.
+    app = QtWidgets.QApplication(sys.argv)
+    window = NewProjectMenu()
+    window.show()
+    app.exec()
+
+
 
 def add_programming():
     print("Triggering add new programming project...")
