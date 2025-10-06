@@ -9,10 +9,10 @@ from main_menu import MainMenu
 from new_project_menu import NewProjectMenu
 # from ui_add_new_project import Ui_add_new_project
 
-loader = QUiLoader()
-
+# loader = QUiLoader()
 
 def open_main_menu():
+    print("Opening main menu...")
     app = QtWidgets.QApplication(sys.argv)
     window = MainMenu()
     window.show()
@@ -21,7 +21,8 @@ def open_main_menu():
 
 def open_add_project():    
     print("Triggering add new project...")
-
+    # main = MainMenu()
+    # sys.exit(main)
     app = QtWidgets.QApplication(sys.argv)
     window = NewProjectMenu()
     window.show()
@@ -31,7 +32,7 @@ def open_add_project():
 
 def add_programming():
     print("Triggering add new programming project...")
-    ui = "ui_add_programming_project.py"
+    # ui = "ui_add_programming_project.py"
 
 def edit_programming():
     print("Triggering edit programming project...")
